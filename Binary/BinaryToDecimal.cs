@@ -44,7 +44,7 @@ namespace BinaryConverter
 
             }
 
-            //gemmer resultatet som string og trimmer det sidste punktum
+            //retunere til der hvor vi klader på funktionen med resultatet og trimmer det sidste punktum
             return result.TrimEnd('.');
 
         }
