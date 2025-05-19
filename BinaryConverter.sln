@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary", "Binary\Binary.csproj", "{7F3F5B52-086F-4392-BC99-81DD51CBD78C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter_UI", "Converter_UI\Converter_UI.csproj", "{DA94AA13-800C-4939-999C-0283F22AFC9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{7F3F5B52-086F-4392-BC99-81DD51CBD78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F3F5B52-086F-4392-BC99-81DD51CBD78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F3F5B52-086F-4392-BC99-81DD51CBD78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA94AA13-800C-4939-999C-0283F22AFC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA94AA13-800C-4939-999C-0283F22AFC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA94AA13-800C-4939-999C-0283F22AFC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA94AA13-800C-4939-999C-0283F22AFC9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9266A493-5509-4513-8A86-3315C2D745F5}
 	EndGlobalSection
 EndGlobal
