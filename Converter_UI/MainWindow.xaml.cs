@@ -39,7 +39,7 @@ namespace Converter_UI
                 {
                     return "Invalid input";
                 }
-                if (!binaryDel.All(char.IsDigit))
+                if (!binaryDel.All(c => c == '0' || c == '1'))
                 {
                     return "Invalid input";
                 }
